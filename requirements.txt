@@ -1,8 +1,4 @@
-pandas
-numpy
-scikit-learn
-xgboost
+torch==2.1.0+cpu
 transformers
 requests
-python-telegram-bot
-torch
+python-telegram-bot==13.15
