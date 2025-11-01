@@ -5,3 +5,4 @@ xgboost
 transformers
 requests
 python-telegram-bot
+torch
