@@ -165,3 +165,13 @@ while True:
     except Exception as e:
         print("Erreur :", e)
         time.sleep(60)
+
+
+from transformers import pipeline
+
+classifier = pipeline(
+    "sentiment-analysis",
+    model="distilbert-base-uncased-finetuned-sst-2-english",
+    revision="714eb0f"
+)
+
