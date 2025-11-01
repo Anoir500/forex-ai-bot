@@ -1,4 +1,4 @@
-torch==2.1.0+cpu
+torch
 transformers
 requests
 python-telegram-bot==13.15
